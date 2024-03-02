@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  s
+  <meta charset="UTF-8">
+  <script src="Functions.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="Style.css">
+  <title>The best page in the world</title>
+</head>
+
+<body background="./Resources/fondo.jpg">
+  <div class="fixed-container">
+    <input type="text" id="searchInput" placeholder="Search...">
+    <button id="searchButton">Buscar</button>
+  </div>
+
+
+  <div class="title"></div>
+  <h1>Aphelios</h1>
+
+  <div class="allImages">
+    <img src="./Resources/aphelios.jpg" alt="Hu">
+  </div>
+
+  <div id="content">
+    <p style="display: flex; justify-content: center;">Guia Basica Aphelios</p>
+
+    <p>Aphelios es un campeon de hyperescalado que se centra en peleas en
+      equipo (aunque esto no le impide ser uno de los mejores duelistas con las armas adecuadas), aprenderas teoria
+      basica del campeon
+      como el manejo de las armas, en que momentos aphelios es fuerte, mejores sinergias, matchups favorables y
+      como debemos jugar con un aphelios en el equipo o en tus manos, en caso de que no te interese la informacion
+      basica de aphelios, puedes ir directamente a como jugar con un aphelios o como jugar aphelios</p>
+    <br>
+    <a href="./Play.html" id="playable" style="background-color: antiquewhite;">Como jugar con un aphelios</a> <a
+      href="./Pro.html" id="pro" style="background-color: antiquewhite;">Como jugar aphelios</a>
+    <p>Como introduccion general repasemos las armas de aphelios</p>
+
+    <p class="Pasiva">Pasiva</p>
+    <div class="allImages">
+      <img src="./Resources/Alune.jpg" alt="Uh">
+    </div>
+    <p>En vez de subir las habilidades cada vez que subes de nivel, Aphelios se suma estadisticas base, estas son, Daño
+      Fisico (ctrl+q), velocidad de ataque (ctrl+w), y letalidad (ctrl+e), cada que ganes un nivel puedes subir uno de
+      estos valores fijos a tu eleccion, Aphelios tiene en total 5 armas diferentes, cada una contiene 50 balas que
+      gastas cada que utilizas un basico, gastas diez si utilizas la q de esa arma y no tienes que tener
+      obligatoriamente 10 o mas balas para usar una habilidad, si tienes 10 o menos balas y usas una habilidad, esta
+      automaticamente se descarta abriendo paso a la siguiente arma en espera y se posiciona como ultima en el orden de
+      las armas, usar tu definitiva no gasta ni una sola bala, aphelios solo tiene una habilidad (q), que cambia
+      dependiendo del arma, cada arma tiene su propio cooldown de habilidad, la tecla w cambia de tu arma principal a tu
+      arma secundaria y visceversa, la tecla e te indica cual es el arma que sigue en espera, esa arma entrara una vez
+      que te hayas gastado una de las dos armas </p>
+
+    <P class="Severum">Severum</P>
+
+    <div class="allImages">
+      <img src="./Resources/severum.jpg" alt="Uh" style="width: 30%;">
+    </div>
+    <p>Es junto con calibrum, la primera arma que se nos da al inicio del juego, esta arma nos da curacion con cada
+      basico que se aplique con esta arma, por lo tanto es nuestro sustain inicial, la curacion base solo escala con el
+      nivel y la vida de aphelios, la q es una ataque en cadena que va intercambiando basicos entre el arma principal
+      (en todos los casos roja) y el arma secundaria, que puede cambiar dependiendo el orden, esta habilidad escala con
+      la velocidad de ataque</p>
+
+    <P class="Calibrum">Calibrum</P>
+    <div class="allImages">
+      <img src="./Resources/calibrum.avif" alt="Uh">
+    </div>
+    <p>Arma inicial de aphelios, te da un rango de autoataque mucho mayor y con cada habilidad con la que se aplique el
+      efecto del arma, marcaras al enemigo, aplicando el efecto del arma secundaria que tengas a la mano, su q es un
+      skillshot de largo alcance, si da a un objetivo lo dejaras marcado y tendras un basico de largo alcance que
+      aplicara el efecto del arma secundaria</p>
+
+    <P class="Gravitum">Gravitum</P>
+    <div class="allImages">
+      <img src="./Resources/gravitum.jpg" alt="Uh">
+    </div>
+    <p>Arma de cc, por cada autoataque que des con esta arma, tu objetivo es marcado lo que ralentiza su velocidad de
+      movimiento(no aumenta slow por golpe), su q te permite activar la marca, lo que stunea al oponente y elimina la
+      marca, la habilidad de esta marca no hace combinacion con el efecto de ningun arma y no aplica efectos de arma
+      secundaria</p>
+
+    <P class="Infernum">Infernum</p>
+    <div class="allImages">
+      <img src="./Resources/infernum.jpg" alt="Uh" style="width: 40%;">
+    </div>
+    <p>Arma de ataque en area, el proyectil de esta arma se dispersa en cuatro pequeñas partes que hacen menos daño
+      desde la parte contraria de tu posicion al objetivo, su q es un barrido en un area conica que aplica el efecto del
+      arma secundaria que tengas en ese momento, el objeto huracan de runan aplica el efecto las armas de aphelios
+      (excepto crescendum) en su pasiva cuestion a considerar especificamente en esta arma</p>
+
+    <P class="Crescendum">Crescendum</p>
+    <div class="allImages">
+      <img src="./Resources/crescendum.jpg" alt="Uh" style="width: 50%;">
+    </div>
+    <p> Arma de corto alcance, la velocidad de ataque de crescendum aumentara dependiendo de lo cerca que estes del
+      objetivo, ya que depeniendo la distancia del proyectil tu velocidad de ataque con ese arma cambia, su q, es una
+      torreta que se queda estatica en el lugar que indiques, estara desactivada y solo se activara cuando un enemigo
+      pase
+      en su rango de ataque, aplicara el efecto del arma secundaria, crescendum es el arma mas complicada de enteder por
+      que su efecto se aplica en impacto, esto quiere decir que dependiendo que cuantos efectos de impacto apliques
+      sobre
+      los objetivos con las habilidades de las anteriores armas (excepto gravitum) sera la cantidad de stack de la
+      pasiva
+      acumules, por ejemplo si tu marcas a un enemigo con calibrum y tienes de arma secundaria crescendum, solo
+      obtentras
+      un stack, en cambio si con infernum golpeas a un tota de 12 objetivos, tendras un stack de 12, con severum, con
+      cada
+      ataque intercalado que des con crescendum durante el casteo de la q (severum) acumularas un stack, es mejor que
+      pruebes sobre todo este arma en practica para que te vayas acostumbrando a su kiteo y posicion</p>
+
+    <p style="display: flex; justify-content: center;"> Ultimate </p>
+    <div class="allImages">
+      <img src="./Resources/R.jpg" alt="Uh" style="width: 50%;">
+    </div>
+    <p>La ultimate de aphelios cambia dependiendo del arma principal que tengas en ese momento, si el arma que tienes en
+      mano es calibrum, marcaras al objetivo y podras dar un basico extendido, en caso de que el arma principal sea
+      severum,
+      te curara un total de vida que escala con nivel dependiendo de a cuantos campeones golpees, en caso de que el arma
+      principal sea gravitum, ralentizaras a los objetivos en un 90%, y los marcaras, en dado caso de que el arma sea
+      infernum, el daño aumentara dependiendo de a cuantas personas golpes, ya que al golpear al objetivo extiende en un
+      area circular proyectiles extra, entre mas juntos esten los objetivos mas daño recibiran, si el arma principal es
+      crescendum, recibiras stacks de chakram dependiendo de a cuantos objetivos hayas golpeado, cada una tiene su
+      utilidad
+      dependiendo de como tomes la pelea </p>
+
+  </div>
+
+</body>
+
+
+</html>
